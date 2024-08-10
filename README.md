@@ -1,7 +1,7 @@
 # Virtual Pet Tamagotchi
 
 ## Screenshot/Logo
-![Screenshot of the game] (https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRyKZ7aWCbtS5pUvkL7J4vcrA9uIhAWdMWlPAVJWhRRyhUGUaXSXNI6PJLNkXJ7gLm4)
+![Screenshot of the game](https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRyKZ7aWCbtS5pUvkL7J4vcrA9uIhAWdMWlPAVJWhRRyhUGUaXSXNI6PJLNkXJ7gLm4) 
 
 ## Game Name
  Tamagotchi
