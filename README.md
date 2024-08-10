@@ -1,5 +1,3 @@
-# Project-1-Game-TBD
-
 # Virtual Pet Tamagotchi
 
 ## Screenshot/Logo
