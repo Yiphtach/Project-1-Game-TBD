@@ -105,4 +105,14 @@
   .hidden {
     display: none;
   }
+
+  .instructions {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background for the instructions box */
+    color: #00f9ff; /* Neon text color for better readability */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 249, 255, 0.5); /* Glowing effect */
+    text-align: center;
+}
   
