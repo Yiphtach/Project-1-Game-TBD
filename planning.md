@@ -1,7 +1,7 @@
 Project Planning
     Game Description
-    Game Name: Virtual Pet Tamagotchi
-    Description: A virtual pet that players can feed, play with, and take care of. The pet has needs that must be met to keep it happy and healthy.
+    Game Name: Tamagotchi
+    Description: A pet that players can feed, play with, and take care of. The pet has needs that must be met to keep it happy and healthy.
 
 Core Mechanics and Features
     Pet States: The pet has different states (e.g., hunger, happiness, energy).
@@ -31,3 +31,5 @@ Pseudocode:
 //    handleClick() function.
 
 // 7 Create reset functionality.
+
+

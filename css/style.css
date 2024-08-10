@@ -1,27 +1,35 @@
-/* global styles  */
+/* global styles */
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
   
   body {
     font-size: 16px;
     min-height: 100vh;
-    background-color: #e6e6e6;
-    font-family: system-ui, sans-serif;
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    font-family: 'Orbitron', sans-serif; /* Orbitron is a futuristic font */
+    color: #e6e6e6;
   }
   
   /* element styles */
   h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
+    color: #00f9ff; /* Neon cyan */
+    text-shadow: 0 0 10px rgba(0, 249, 255, 0.7); /* Glowing effect */
   }
   
   h2 {
-    font-size: 1.7rem;
+    font-size: 2rem;
+    color: #ff4f81; /* Neon pink */
+    text-shadow: 0 0 10px rgba(255, 79, 129, 0.7); /* Glowing effect */
   }
   
   /* headings */
   header {
     text-align: center;
+    margin-top: 20px;
   }
   
   /* layout */
@@ -33,12 +41,14 @@
   .button-wrapper {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
   }
   
   .stats-wrapper {
     display: grid;
     text-align: center;
     grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
   }
   
   .game-state-wrapper {
@@ -46,38 +56,53 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 20px;
   }
   
-  /* button styling*/
+  /* button styling */
   button {
-    padding: 1.5rem;
-    line-height: 1em;
+    padding: 1rem 2rem;
+    line-height: 1.2em;
     font-size: 1.5rem;
-  
-    border: 0;
-    border-radius: 0.5rem;
-    
-    color: white;
-    background-color: #4597f8;
-    transition: background-color 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: 2px solid #00f9ff; /* Neon cyan border */
+    border-radius: 1rem;
+    color: #00f9ff;
+    background-color: rgba(0, 249, 255, 0.2); /* Semi-transparent background */
+    box-shadow: 0 0 10px rgba(0, 249, 255, 0.5); /* Glowing effect */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
   }
   
   button:hover {
-    background-color: #3880d7;
+    background-color: rgba(0, 249, 255, 0.4); /* More intense glow */
+    box-shadow: 0 0 20px rgba(0, 249, 255, 0.7); /* Stronger glow */
   }
   
   button:active {
-    background-color: #2e6bb6;
+    background-color: rgba(0, 249, 255, 0.6);
+    box-shadow: 0 0 30px rgba(0, 249, 255, 0.9); /* Stronger glow */
+    transform: scale(0.98);
+  }
+  
+  button:disabled {
+    background-color: #4a4a4a;
+    border-color: #7a7a7a;
+    color: #7a7a7a;
+    cursor: not-allowed;
+    box-shadow: none;
   }
   
   /* images */
   .game-graphic {
     max-height: 33vmin;
     margin-bottom: 32px;
+    border: 2px solid #00f9ff; /* Neon cyan border */
+    box-shadow: 0 0 20px rgba(0, 249, 255, 0.5); /* Glowing effect */
+    border-radius: 1rem;
   }
   
+  /* hidden elements */
   .hidden {
-    visibility: hidden;
+    display: none;
   }
-  
   
